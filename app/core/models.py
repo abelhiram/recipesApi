@@ -9,7 +9,7 @@ from django.contrib.auth.models import (
 
 bum = BaseUserManager()._db
 
-print(bum)
+
 class UserManager(BaseUserManager):
     """manager for users"""
 
